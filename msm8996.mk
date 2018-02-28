@@ -183,9 +183,12 @@ PRODUCT_PACKAGES += \
     android.hardware.health@1.0-service
 
 # HIDL
+# removed HIDL packages
+# android.hidl.base@1.0 \
+
 PRODUCT_PACKAGES += \
-    android.hidl.base@1.0 \
-    android.hidl.manager@1.0 \
+    android.hidl.base@1.0a \
+    android.hidl.manager@1.0a \
     android.hidl.manager@1.0-java
 
 # Doze mode
